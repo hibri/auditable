@@ -6,10 +6,10 @@ require "auditable/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "auditable"
-  s.version     = AuditTrail::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
+  s.version     = Auditable::VERSION
+  s.authors     = ["Hibri Marzook"]
+  s.email       = ["hibri@hibri.net"]
+  s.homepage    = "http://www.hibri.net"
   s.summary     = "TODO: Summary of AuditTrail."
   s.description = "TODO: Description of AuditTrail."
   s.license     = "MIT"
