@@ -1,14 +1,3 @@
-require 'state_machine'
-
-module StateMachine::Auditable
-
-  def self.setup
-    StateMachine::Machine.send(:include, StateMachine::Auditable::AuditTrail)
-  end
-
-end
-
-
 module StateMachine::Auditable::AuditTrail
 
   def setup_audit_trail(transition_class)
@@ -33,4 +22,3 @@ module StateMachine::Auditable::AuditTrail
   end
 end
 
-StateMachine::Auditable.setup
