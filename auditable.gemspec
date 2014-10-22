@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Hibri Marzook"]
   s.email       = ["hibri@hibri.net"]
   s.homepage    = "http://www.hibri.net"
-  s.summary     = "TODO: Summary of AuditTrail."
-  s.description = "TODO: Description of AuditTrail."
+  s.summary     = "Add an audit trail for state_machine."
+  s.description = "Add an audit trail for state_machine."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
