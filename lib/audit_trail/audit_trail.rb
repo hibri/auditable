@@ -26,15 +26,12 @@ module StateMachine::Auditable::AuditTrail
     params = {:event => transition.event, :from => transition.from, :to => transition.to}
     puts @association
     if object.new_record?
-      d = object.send(@association).build(params)
-
+      object.send(@association).build(params)
     else
-      d =object.send(@association).create(params)
+      object.send(@association).create(params)
     end
-    puts d.event
     nil
   end
 end
-
 
 StateMachine::Auditable.setup
