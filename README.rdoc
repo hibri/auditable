@@ -1,3 +1,4 @@
 = AuditTrail
 
-This project rocks and uses MIT-LICENSE.
+A simple cope of the state_machine-audit_trail gem
+https://github.com/wvanbergen/state_machine-audit_trail
