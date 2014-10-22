@@ -9,5 +9,6 @@ module StateMachine::Auditable
 end
 
 require 'auditable/audit_trail'
+require 'auditable/version'
 
 StateMachine::Auditable.setup
