@@ -8,4 +8,6 @@ module StateMachine::Auditable
 
 end
 
+require 'auditable/audit_trail'
+
 StateMachine::Auditable.setup
