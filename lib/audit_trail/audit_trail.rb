@@ -3,7 +3,6 @@ require 'state_machine'
 module StateMachine::Auditable
 
   def self.setup
-    puts 'set'
     StateMachine::Machine.send(:include, StateMachine::Auditable::AuditTrail)
   end
 
