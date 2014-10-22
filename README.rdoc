@@ -1,4 +1,4 @@
 = AuditTrail
 
-A simple cope of the state_machine-audit_trail gem
+A simple copy of the state_machine-audit_trail gem
 https://github.com/wvanbergen/state_machine-audit_trail
