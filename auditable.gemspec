@@ -5,7 +5,7 @@ require "audit_trail/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "audit_trail"
+  s.name        = "auditable"
   s.version     = AuditTrail::VERSION
   s.authors     = ["TODO: Your name"]
   s.email       = ["TODO: Your email"]
