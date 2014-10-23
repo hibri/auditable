@@ -12,7 +12,6 @@ module StateMachine::Auditable::AuditTrail
     # Let ActiveRecord manage the timestamp for us so it does the
     # right thing with regards to timezones.
     params = {:event => transition.event, :from => transition.from, :to => transition.to}
-    puts @association
     if object.new_record?
       object.send(@association).build(params)
     else
